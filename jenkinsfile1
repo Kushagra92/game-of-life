@@ -10,8 +10,6 @@ parameters([
 ])
 
 stage ('Test'){
- echo $color
- echo $URL
  echo "first file"
 }
 
