@@ -10,7 +10,7 @@ parameters([
 ])
 
 stage ('Test'){
- echo "econd file
+ echo "econd file"
 }
 
 
