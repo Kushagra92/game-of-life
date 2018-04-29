@@ -5,7 +5,7 @@ def colorList= ['BLACK', 'WHITE']
 def colorChoices = colorList.join("\n")
 
 parameters([
- choice(choices: colorChoices, description'', name: 'color'),
+ choice(choices: colorChoices, description:'', name: 'color'),
  string(defaultvalue:'www.google.com', description: 'provide the url', name: 'URL')
 ])
 
