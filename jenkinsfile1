@@ -4,7 +4,6 @@ def colorList= ['BLACK', 'WHITE']
 
 def colorChoices = colorList.join("\n")
 
-node {
 parameters([
  choice(choices: colorChoices, description'', name: 'color'),
  string(defaultvalue:'www.google.com', description: 'provide the url', name: 'URL')
@@ -15,4 +14,4 @@ stage ('Test'){
  echo ${URL}
  echo ""first file"
 }
-}
+
